@@ -76,6 +76,41 @@ export default function AboutMeComponent() {
           margin-left: 5vw;
         }
 
+        @media screen and (max-width: 1000px) {
+          .at-aboutme{
+            flex-direction: column;
+          }
+
+          .at-aboutcontent{
+            width: 100vw;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+          }
+
+          h2 {
+            text-align: center;
+          }
+
+          .at-aboutcontent p{
+            width: 90vw;
+          }
+
+          ul{
+            width: 60vw;
+          }
+
+          .cat-img{
+            margin: 0;
+            padding: 10vw;
+          }
+
+          .at-aboutme{
+            margin-bottom: 5vh;
+          }
+
+        }
+
       `}</style>
     </>
   )

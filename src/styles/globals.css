@@ -47,3 +47,20 @@ ul {
 * {
   box-sizing: border-box;
 }
+
+@media screen and (max-width: 1000px){
+
+  p{
+    font-size: 3vw;
+  }
+  h2{
+    font-size: 5vw;
+  }
+  h1{
+    font-size: 10vw;
+  }
+  li{
+    font-size: 3vw;
+  }
+
+}
