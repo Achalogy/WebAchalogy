@@ -18,7 +18,7 @@ export default function CertsComponent() {
     <>
       <div className="cert-obj">
         <p>{name}</p>
-        <a className="download-cert" href={`http://storage.achalogy.ovh/download/${file}`} target="_blank" rel="noopener" >
+        <a className="download-cert" href={`http://storage.achalogy.ovh/download/${file}`} target="_blank" rel="noreferrer" >
           Download
         </a>
       </div>
