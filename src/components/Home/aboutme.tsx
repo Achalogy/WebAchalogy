@@ -18,7 +18,7 @@ export default function AboutMeComponent() {
               and I started to use Computers.
               <br />
               <br />
-              Covid Quarantine give the enough time and resources to start learning about <span>Javascript</span>
+              Covid Quarantine give the enough time and resources to start learning about <span>Javascript </span> 
               and then start with my studies about <span>React, React Native, Nest js, Next js</span> and another technologies.
               <br />
               <br />
