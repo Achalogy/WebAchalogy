@@ -33,7 +33,7 @@ export default function AboutMeComponent() {
             </ul>
           </div>
           <div className="cat-img">
-            <Image src={catImage} width={420} height={320} />
+            <Image src={catImage} width={420} height={320} alt="Cat Developer :3"/>
           </div>
         </div>
       </div>
