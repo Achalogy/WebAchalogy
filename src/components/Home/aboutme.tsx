@@ -11,18 +11,18 @@ export default function AboutMeComponent() {
           <div className="at-aboutcontent">
             <h2><span>1.</span> About Me</h2>
             <p>
-              Hi! My name is Miguel Vargas and I am 16 Years Old
+              Hi! My name is Miguel Vargas and I am 16 years old
               <br />
-              I am from Colombia and I am currently ending my High School Studies
-              My Interest in learning about Computers started back in 2015 when I was 9 years old
-              and I started to use Computers.
+              I am from Colombia and I am currently ending my high school studies
+              My interest in learning about computers started back in 2015 when I was 9 years old
+              and I started to use computers.
               <br />
               <br />
-              Covid Quarantine give the enough time and resources to start learning about <span>Javascript </span> 
+              Covid quarantine give the enough time and resources to start learning about <span>Javascript </span> 
               and then start with my studies about <span>React, React Native, Nest js, Next js</span> and other technologies.
               <br />
               <br />
-              I learned most everything I known about Computers and Development with an autodidact learning, just for fun. Here are a few technologies I have been using this last years:
+              I learned most everything I known about computers and development with an autodidact learning, just for fun. Here are a few technologies I have been using this last years:
             </p>
             <ul>
               <li>Javascript</li>
