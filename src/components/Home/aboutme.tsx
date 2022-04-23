@@ -19,7 +19,7 @@ export default function AboutMeComponent() {
               <br />
               <br />
               Covid Quarantine give the enough time and resources to start learning about <span>Javascript </span> 
-              and then start with my studies about <span>React, React Native, Nest js, Next js</span> and another technologies.
+              and then start with my studies about <span>React, React Native, Nest js, Next js</span> and other technologies.
               <br />
               <br />
               I learned most everything I known about Computers and Development with a autodidact learning, just for fun. Here are a few technologies I have been using this last years:
