@@ -1,3 +1,4 @@
+import Head from 'next/head'
 import { useEffect, useState } from 'react'
 import AboutMeComponent from '../components/Home/aboutme'
 import WelcomeComponent from '../components/Home/welcome'
@@ -15,6 +16,9 @@ export default function Home () {
 
   return (
     <>
+      <Head>
+        <title>Achalogy</title>
+      </Head>
       {visible == true &&
         <>
           <div className='navbar'>
