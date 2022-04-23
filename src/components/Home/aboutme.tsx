@@ -6,7 +6,7 @@ export default function AboutMeComponent() {
 
   return(
     <>
-      <div className="aboutme">
+      <div className="aboutme" id="AboutMe" data-aos={"fade-up"}>
         <div className="at-aboutme">
           <div className="at-aboutcontent">
             <h2><span>1.</span> About Me</h2>
@@ -40,7 +40,7 @@ export default function AboutMeComponent() {
       <style jsx>{`
         .aboutme {
           width: 100vw;
-          height: 90vh;
+          height: 100vh;
           display: flex;
           justify-content: center;
           align-items: center;

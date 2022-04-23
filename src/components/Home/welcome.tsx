@@ -4,7 +4,7 @@ export default function WelcomeComponent() {
 
   return (
     <>
-      <div className="welcome">
+      <div className="welcome" data-aos={"fade-in"} >
         <div className="presentation">
           <span>Hi, my name is</span>
           <h1 className="name">Achalogy</h1>

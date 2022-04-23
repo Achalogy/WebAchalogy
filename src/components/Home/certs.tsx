@@ -16,7 +16,7 @@ export default function CertsComponent() {
 
   const CertComp = ({ name, file }: any) => (
     <>
-      <div className="cert-obj">
+      <div className="cert-obj" id="Certs" >
         <p>{name}</p>
         <a className="download-cert" href={`http://storage.achalogy.ovh/download/${file}`} target="_blank" rel="noreferrer" >
           Download
@@ -69,7 +69,7 @@ export default function CertsComponent() {
 
   return(
     <>
-      <div className="certs">
+      <div className="certs" data-aos={"fade-up"}>
         <div className="at-certs">
           <h2><span>2.</span> Certificates</h2>
           <ul>

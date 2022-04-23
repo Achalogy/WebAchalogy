@@ -3,6 +3,8 @@ import { useEffect, useState } from 'react'
 import AboutMeComponent from '../components/Home/aboutme'
 import CertsComponent from '../components/Home/certs'
 import WelcomeComponent from '../components/Home/welcome'
+import 'aos/dist/aos.css'
+import AOS from 'aos'
 
 export default function Home () {
 
@@ -10,15 +12,22 @@ export default function Home () {
 
   useEffect(() => {
     phone(window.innerWidth < 1000)
+    AOS.init({
+      duration: 1500
+    })
   }, [])
 
   return (
     <>
-    <Head>
-      <title>Achalogy</title>
-    </Head>
+      <Head>
+        <title>Achalogy</title>
+      </Head>
       {!isPhone &&
         <div className='navbar'>
+          <ul>
+            <li><a href="#AboutMe">About Me</a></li>
+            <li><a href="#Certs">Certificates</a></li>
+          </ul>
           <a className="contact" href='mailto:achalogy@gmail.com'>
             Contact
           </a>
@@ -34,6 +43,21 @@ export default function Home () {
         </p>
       </footer>
       <style jsx>{`
+
+        .navbar ul {
+          list-style: none;
+          margin: 0 1vw;
+          width: 100%;
+          padding: 0;
+          justify-content: end;
+          display: flex;
+          flex-direction: row;
+        }
+
+        .navbar li {
+          margin: 0 1vw;
+        }
+
         .navbar {
           height: 8vh;
           width: 100vw;
