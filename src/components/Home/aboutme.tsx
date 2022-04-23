@@ -22,7 +22,7 @@ export default function AboutMeComponent() {
               and then start with my studies about <span>React, React Native, Nest js, Next js</span> and another technologies.
               <br />
               <br />
-              I learned most everything I known about Computers and Development with a autodidact learning, just for fun. Here are a few technologies I've been using this last years:
+              I learned most everything I known about Computers and Development with a autodidact learning, just for fun. Here are a few technologies I have been using this last years:
             </p>
             <ul>
               <li>Javascript</li>
