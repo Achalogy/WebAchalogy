@@ -38,13 +38,29 @@ export default function CertsComponent() {
       
         .download-cert {
           aspect-ratio: 3/1;
-          width: 100px;
+          width: 5vw;
           background-color: #af4a4a;
           border-radius: 5px;
           display: flex;
           justify-content: center;
           align-items: center;
           cursor: pointer;
+        }
+
+        @media screen and (max-width: 1000px) {
+          .cert-obj {
+            height: 5vh;
+            padding: 0 2vw;
+          }
+
+          .cert-obj p {
+            font-size: 2.5vw;
+          }
+
+          .download-cert {
+            width: 18vw;
+          }
+
         }
       
       `}</style>
@@ -89,6 +105,15 @@ export default function CertsComponent() {
           columns: 1;
           -webkit-columns: 1;
           -moz-columns: 1;
+        }
+
+        @media screen and (max-width: 1000px) {
+          .at-certs {
+            width: 90vw;
+          }
+          ul {
+            padding: 0 1vw;;
+          }
         }
 
       `}</style>
