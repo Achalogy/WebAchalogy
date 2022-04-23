@@ -48,6 +48,7 @@ export default function AboutMeComponent() {
         
         .at-aboutme {
           height: 50vh;
+          width: 60vw;
           padding: 1vw;
           display: flex;
           align-items: center;

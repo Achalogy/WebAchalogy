@@ -1,6 +1,7 @@
 import Head from 'next/head'
 import { useEffect, useState } from 'react'
 import AboutMeComponent from '../components/Home/aboutme'
+import CertsComponent from '../components/Home/certs'
 import WelcomeComponent from '../components/Home/welcome'
 
 export default function Home () {
@@ -25,6 +26,7 @@ export default function Home () {
       }
       <WelcomeComponent />
       <AboutMeComponent />
+      <CertsComponent />
       <footer>
         <p>Designed and Builded by <span>Achalogy</span>
           <br />
