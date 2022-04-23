@@ -58,7 +58,7 @@ export default function CertsComponent() {
           <h2><span>2.</span> Certificates</h2>
           <ul>
             {certs.map(cert => (
-              <li>
+              <li key={cert.file}>
                 <CertComp name={cert.name} file={cert.file} />
               </li>
             ))
