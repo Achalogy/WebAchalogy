@@ -1,28 +1,37 @@
-import { useEffect } from 'react'
+import { useEffect, useState } from 'react'
 import AboutMeComponent from '../components/Home/aboutme'
 import WelcomeComponent from '../components/Home/welcome'
 
 export default function Home () {
 
+  const [visible, isVisible] = useState(true)
+
   useEffect(() => {
-    window.innerWidth < 1000 && alert('Pagina no Optimizada para Dispositivos moviles')
+    if (window.innerWidth < 1000) {
+      alert('Pagina no Optimizada para Dispositivos moviles')
+      isVisible(false)
+    }
   }, [])
 
   return (
     <>
-      <div className='navbar'>
-        <a className="contact" href='mailto:achalogy@gmail.com'>
-          Contact
-        </a>
-      </div>
-      <WelcomeComponent />
-      <AboutMeComponent />
-      <footer>
-        <p>Designed and Builded by <span>Achalogy</span>
-          <br />
-          <a href='https://www.freepik.es/vectores/gato-animado'>Vector de gato animado creado por catalyststuff - www.freepik.es</a>
-        </p>
-      </footer>
+      {visible == true &&
+        <>
+          <div className='navbar'>
+            <a className="contact" href='mailto:achalogy@gmail.com'>
+              Contact
+            </a>
+          </div>
+          <WelcomeComponent />
+          <AboutMeComponent />
+          <footer>
+            <p>Designed and Builded by <span>Achalogy</span>
+              <br />
+              <a href='https://www.freepik.es/vectores/gato-animado'>Vector de gato animado creado por catalyststuff - www.freepik.es</a>
+            </p>
+          </footer>
+        </>
+      }
       <style jsx>{`
         .navbar {
           height: 8vh;
