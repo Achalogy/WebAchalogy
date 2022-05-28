@@ -7,20 +7,24 @@ import 'aos/dist/aos.css'
 import AOS from 'aos'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faBars, faX } from '@fortawesome/free-solid-svg-icons'
-import githubLogo from '../assets/github.png'
-import fccLogo from '../assets/fcc.png'
+import githubLogo from '../assets/github.webp'
+import fccLogo from '../assets/fcc.webp'
 import Image from "next/image";
 
 export default function Home () {
 
   const [isPhone, phone] = useState(false)
   const [deployed, deploy] = useState(false)
+  const [off, setOff] = useState(0)
 
   useEffect(() => {
     phone(window.innerWidth < 1000)
     AOS.init({
       duration: 1500
     })
+    setInterval(() => {
+      setOff(window.pageYOffset)
+    }, 5)
   }, [])
 
   return (
@@ -50,7 +54,7 @@ export default function Home () {
           <FontAwesomeIcon icon={faBars} color="#9bc2fd" size='2x' onClick={() => /* deploy(true) */ null} />
         </div>
       }
-      <div className='left-float'>
+      <div className='left-float' style={{ opacity: off != 0 ? 0.2 : 1 }} data-aos="fade-right">
         <div className="left-button">
           <a href="https://github.com/Achalogy" target="_blank">
             <Image src={githubLogo} width={50} height={50} alt="Github" />
