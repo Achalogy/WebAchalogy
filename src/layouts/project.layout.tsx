@@ -143,6 +143,7 @@ export default function ProjectLayout({ children, item }: project) {
 
           a {
             font-size: 3.5vw;
+            margin-inline: 1vw;
           }
 
           .proj-desc {
