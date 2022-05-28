@@ -70,6 +70,16 @@ export default function ProjectsComponent() {
           a {
             cursor: pointer;
           }
+
+          @media screen and (max-width: 1000px) {
+            h3 {
+              font-size: 3.5vw;
+            }
+            p {
+              font-size: 2.5vw;
+            }
+          }
+
         `}</style>
       </>
     )
@@ -103,6 +113,12 @@ export default function ProjectsComponent() {
           display: flex;
           flex-direction: column;
           margin-bottom: 10vh;
+        }
+
+        @media screen and (max-width: 1000px) {
+          .at-projects {
+            width: 90vw;
+          }
         }
 
       `}</style>
