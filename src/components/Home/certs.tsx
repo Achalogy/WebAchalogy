@@ -11,6 +11,10 @@ export default function CertsComponent() {
     {
       "name": "Basic Python (MIN TIC and University Sergio Arboleda)",
       "file": "certificate-python.pdf"
+    },
+    {
+      "name": "JavaScript Algorithms and Data Structures (freeCodeCamp)",
+      "file": "FCC_Javascript.pdf"
     }
   ]
 
