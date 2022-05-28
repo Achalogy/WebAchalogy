@@ -15,17 +15,17 @@ export default function AboutMeComponent() {
               <br />
               I am from Colombia and I am currently ending my high school studies.
               My interest in learning about computers started back in 2015 when I was 9 years old
-              and I started to use computers.
+              and I started to learn about computers.
               <br />
               <br />
-              Covid quarantine give the enough time and resources to start learning about <span>Javascript </span> 
-              and then start with my studies about <span>React, React Native, Nest js, Next js</span> and other technologies.
+              Covid quarantine give the enough time and resources to start learning <span>Javascript </span> 
+              and then start learning <span>React, React Native, Nest js, Next js</span> and Python.
               <br />
               <br />
-              I learned most everything I known about computers and development with an autodidact learning, just for fun. Here are a few technologies I have been using this last years:
+              I have knowledge about computers and development that I learn with an autodidact learning, just for fun. Here are a few technologies I have been using this last years:
             </p>
             <ul>
-              <li>Javascript</li>
+              <li>Javascript / Node Js</li>
               <li>Python</li>
               <li>React - Nextjs</li>
               <li>Nest js</li>
@@ -33,7 +33,7 @@ export default function AboutMeComponent() {
             </ul>
           </div>
           <div className="cat-img">
-            <Image src={catImage} width={420} height={320} alt="Cat Developer :3"/>
+            <Image src={catImage} width={420} height={320} alt="Cat With a Computer :D"/>
           </div>
         </div>
       </div>
