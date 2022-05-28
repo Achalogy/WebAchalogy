@@ -10,6 +10,7 @@ import { faBars, faX } from '@fortawesome/free-solid-svg-icons'
 import githubLogo from '../assets/github.webp'
 import fccLogo from '../assets/fcc.webp'
 import Image from "next/image";
+import ProjectsComponent from '../components/Home/projects'
 
 export default function Home () {
 
@@ -69,6 +70,7 @@ export default function Home () {
       <WelcomeComponent />
       <AboutMeComponent />
       <CertsComponent />
+      <ProjectsComponent />
       <footer>
         <p>Designed and Builded by <span>Achalogy</span>
           <br />
