@@ -15,6 +15,10 @@ export default function CertsComponent() {
     {
       "name": "JavaScript Algorithms and Data Structures (freeCodeCamp)",
       "file": "FCC_Javascript.pdf"
+    },
+    {
+      "name": "C1 Certificate (EF Standard English Test)",
+      "file": "EF_SET_Certificate.pdf"
     }
   ]
 
